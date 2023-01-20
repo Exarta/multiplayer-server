@@ -20,16 +20,16 @@ const playerschema = new mongoose.Schema({
     require: false,
     default: 0,
   },
-//   position: {
-//     type: { x: Number, y: Number, z: Number },
-//     require: false,
-//     default: 0,
-//   },
-//   rotation: {
-//     type: { x: Number, y: Number, z: Number },
-//     require: false,
-//     default: 0,
-//   },
+  // position: {
+  //   type: { x: Number, y: Number, z: Number },
+  //   require: false,
+  //   default: 0,
+  // },
+  // rotation: {
+  //   type: { x: Number, y: Number, z: Number },
+  //   require: false,
+  //   default: 0,
+  // },
   modelId: {
     type: Number,
     require: false,
